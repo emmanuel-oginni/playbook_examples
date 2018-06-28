@@ -1,0 +1,8 @@
+---
+- hosts: "{{host_limit}}"
+  become: true
+  become_method: sudo
+
+  tasks:
+    - name: Run command for testing
+      command: pwd && ls -ltra
