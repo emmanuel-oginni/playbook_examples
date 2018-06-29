@@ -5,4 +5,4 @@
 
   tasks:
     - name: Run command for testing
-      command: pwd && ls -ltra
+      shell: "pwd && ls -ltra"
